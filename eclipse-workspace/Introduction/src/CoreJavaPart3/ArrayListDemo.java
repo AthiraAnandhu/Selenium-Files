@@ -1,0 +1,48 @@
+package CoreJavaPart3;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<String> a = new ArrayList<String>();
+		a.add("Athira");
+		a.add("Athira");
+		a.add("Anandhu");
+		System.out.println(a);
+
+		// adding by index
+		a.add(0, "Student");
+		System.out.println(a);
+
+		// to get only 2nd index
+		System.out.println(a.get(2));
+		
+		//to check a string is present or not
+		System.out.println(a.contains("testing"));
+		System.out.println(a.contains("Athira"));
+		
+		//to know index of athira
+		System.out.println(a.indexOf("Athira"));
+		
+		//to check if arraylist is empty
+		System.out.println(a.isEmpty());
+		
+		//to get size
+		System.out.println(a.size());
+		/*
+		 * //to remove 
+		 a.remove(1); 
+		 System.out.println(a);
+		 a.remove("Student");
+		 System.out.println(a);
+		 a.removeAll(a);
+		 System.out.println(a);
+		 * 
+		 */
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package JavaProgramsProblems;
+
+public class MaxSecond {
+
+	public static void main(String[] args) {
+		int arr[]= {3,6,9,3,2,1};
+		
+		List al = Arrays.asList(arr);
+		
+	}
+
+	}
+
+

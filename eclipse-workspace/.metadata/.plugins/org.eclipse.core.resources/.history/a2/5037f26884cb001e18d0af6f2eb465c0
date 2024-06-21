@@ -1,0 +1,22 @@
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class ActionsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.get("https://www.amazon.com/");
+		driver.manage().window().maximize();
+		
+	Actions a = new Actions(driver);
+	a.moveToElement(null).build().perform();
+	
+	}
+
+}

@@ -1,0 +1,14 @@
+package CoreJavaPart2;
+
+public class ConstructorDemo {
+
+	public ConstructorDemo()
+	{
+		System.out.println();
+	}
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package CoreJavaPart2;
+
+public class ConstructorDemo {
+
+	//default constructor
+	public ConstructorDemo()
+	{
+		System.out.println("I am in constructor");
+	}
+	
+	//parameterized constructor
+	public ConstructorDemo(int a, int b)
+	{
+		int c =a+b;
+		System.out.println("I am in parameterized constructor");
+		System.out.println(c);
+	}
+	
+	public ConstructorDemo(String str)
+	{
+		System.out.println("I am in constructor");
+	}
+	
+	//method
+	public void getData()
+	{
+		System.out.println("I am in method");
+	}
+	public static void main(String[] args) {
+		
+		ConstructorDemo cd = new ConstructorDemo();
+		ConstructorDemo cS = new ConstructorDemo("HELLO");
+		ConstructorDemo c = new ConstructorDemo(4,5);
+		cd.getData();
+		
+	}
+
+}

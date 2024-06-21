@@ -1,0 +1,19 @@
+package CoreJavaPart2;
+
+public class ExceptionIndexOutOfBound {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int arry[]=new int[5];
+		try
+		{
+			System.out.println(arry[7]);
+		}
+		catch(IndexOutOdBoundException et)
+		{
+			
+		}
+	}
+
+}

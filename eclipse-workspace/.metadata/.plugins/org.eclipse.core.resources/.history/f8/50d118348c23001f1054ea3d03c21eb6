@@ -1,0 +1,14 @@
+package CoreJavaPart2;
+
+public class ExceptionIndexOutOfBound {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		try
+		{
+			int arry[]=new int[5]
+		}
+	}
+
+}

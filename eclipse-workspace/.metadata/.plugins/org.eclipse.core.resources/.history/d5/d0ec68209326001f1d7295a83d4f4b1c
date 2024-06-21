@@ -1,0 +1,17 @@
+package JavaProgramsProblems;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class MaxSecond {
+
+	public static void main(String[] args) {
+		int arr[]= {3,6,9,3,2,1};
+		
+		List<int[]> al = Arrays.asList(arr);
+		
+	}
+
+	}
+
+

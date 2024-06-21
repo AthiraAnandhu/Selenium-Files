@@ -1,0 +1,14 @@
+package CoreJavaPart3;
+
+import java.util.HashSet;
+
+public class SetExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashSet hs = new HashSet();
+
+	}
+
+}

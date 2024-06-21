@@ -1,0 +1,18 @@
+package CoreJavaPart2;
+
+public class StaticVar {
+
+	String name;
+	String address;
+	String city;
+	
+	StaticVar(String name,String address,String city)
+	{
+		System.out.println(address);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

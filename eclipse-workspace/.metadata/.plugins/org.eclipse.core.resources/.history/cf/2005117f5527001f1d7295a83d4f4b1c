@@ -1,0 +1,23 @@
+package JavaProgramsProblems;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 String s = "athta";
+		 
+		for(int i=0;i<s.length()-1;i--)
+			{
+			
+			String newValue =s;
+			if(newValue ==s)
+			{
+			 
+			System.out.println("true");
+		}
+			else
+				break;
+	}
+
+}

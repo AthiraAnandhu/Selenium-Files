@@ -1,0 +1,20 @@
+package CoreJavaPart3;
+
+import java.util.HashMap;
+
+public class MapExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		HashMap<Integer,String> hm = new HashMap<Integer,String> ();
+		hm.put(0, "hello");
+		hm.put(1, "Gudbye");
+		hm.put(2, "morning");
+		hm.put(3, "Evening");
+		
+		//to get value based on index
+		System.out.println(hm.get(2));
+	}
+
+}

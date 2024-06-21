@@ -1,0 +1,10 @@
+package CoreJavaPart2;
+
+public class ChildDemo {
+	
+	
+	String name ="Anandhu";
+	public static void main(String[] args) {
+	
+	}
+}

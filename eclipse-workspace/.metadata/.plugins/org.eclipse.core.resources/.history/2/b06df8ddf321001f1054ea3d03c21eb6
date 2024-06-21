@@ -1,0 +1,19 @@
+package CoreJavaPart2;
+
+public class ChildDemo extends ParentDemo {
+	
+	
+	String name ="Anandhu";
+	 
+	//super keyword with variable name
+	public void getName()
+	{
+		System.out.println(name);
+		System.out.println(super.name);
+	}
+	public static void main(String[] args) {
+	
+		ChildDemo cd = new ChildDemo();
+		cd.getName();
+	}
+}

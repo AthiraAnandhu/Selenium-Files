@@ -1,0 +1,27 @@
+package CoreJavaPart2;
+
+public class StaticVar {
+
+	String name;
+	String address;
+	String city;
+	
+	StaticVar(String name,String address,String city)
+	{
+		this.name=name;
+		this.address=address;
+		this.city=city;
+	}
+	
+	public void getAddress() {
+		System.out.println(address);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StaticVar obj =new StaticVar("Bob","Marthalli","Banglore");
+		StaticVar obj1 =new StaticVar("Ram","JayNagar","Banglore");
+		obj.getAddress();
+		obj1.getAddress();
+	}
+
+}

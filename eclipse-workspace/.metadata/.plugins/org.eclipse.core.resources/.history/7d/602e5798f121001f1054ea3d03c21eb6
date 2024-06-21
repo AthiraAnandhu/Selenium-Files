@@ -1,0 +1,7 @@
+package CoreJavaPart2;
+
+public class ChildDemo {
+	public static void main(String[] args) {
+	
+	}
+}
